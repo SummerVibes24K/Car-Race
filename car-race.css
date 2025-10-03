@@ -1,0 +1,22 @@
+@keyframes white-car-animation {
+    0% {
+        top: -30%;
+
+    }
+
+    100% {
+        top: 130%;
+    }
+
+}
+
+@keyframes road-animation {
+    0% {
+        top: -40%
+    }
+
+    100% {
+        top: 0%
+    }
+    
+}
