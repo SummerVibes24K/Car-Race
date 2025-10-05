@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="car-race.css" />
+    <link rel="stylesheet" href="./car-race.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A Car Game :D</title>
   </head>
 
-  <body class="bg-[url('/images/bg.jpg')] bg-cover bg-center">
+  <body class="bg-[url('./images/bg.jpg')] bg-cover bg-center">
     <div class="flex flex-col items-center h-screen overflow-hidden relative">
       <!-- road -->
       <img
         id="road"
-        src="/images/road.jpg"
+        src="./images/road.jpg"
         alt="road"
         class="w-[50%] absolute top-0 left-1/2 -translate-x-1/2"
       />
@@ -31,7 +31,7 @@
       <!-- white car -->
       <img
         id="white-car"
-        src="/images/car-1.png"
+        src="./images/car-1.png"
         alt=""
         class="w-32 h-64 absolute top-[10%] left-[28%]"
       />
@@ -39,7 +39,7 @@
       <!-- my car -->
       <img
         id="my-car"
-        src="/images/my-car.png"
+        src="./images/my-car.png"
         alt=""
         class="w-32 h-64 absolute bottom-[10%] left-[45%] bordor-2 border-red-500 border"
       />
@@ -51,25 +51,25 @@
 
       <!-- black car -->
       <img
-        src="/images/car-2.png"
+        src="./images/car-2.png"
         alt=""
         class="w-32 h-64 absolute top-[10%] left-[40%]"
       />
 
       <!-- blue car  -->
       <img
-        src="/images/car-3.png"
+        src="./images/car-3.png"
         alt=""
         class="w-32 h-64 absolute top-[10%] right-[40%]"
       />
 
       <!-- green car -->
       <img
-        src="/images/car-4.png"
+        src="./images/car-4.png"
         alt=""
         class="w-32 h-64 absolute top-[10%] right-[26%]"
       />
     </div>
-    <script src="/car-game.js"></script>
+    <script src="./car-game.js"></script>
   </body>
 </html>
